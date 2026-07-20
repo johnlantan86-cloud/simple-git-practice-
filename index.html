@@ -15,14 +15,15 @@
         <nav class="links">
             
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="information.html">Information</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#information">Information</a></li>
 
             </ul>
         </nav>
     </header>
+
 
     <main>
   <section id="home" class="hero-section">
@@ -50,6 +51,38 @@
        <a href="#projects" class="secondary-button">View projects </a>
 
   </section>
+  <section id="about" class="about-section">
+
+  <div class="about-content">
+    <p class="small-label">About SkillSpace</p>
+
+    <h2>Learn software development by building</h2>
+
+    <p>
+      SkillSpace helps beginners understand development through
+      lessons, practice projects and independent challenges.
+    </p>
+  </div>
+
+  <div class="feature-container">
+
+    <article class="feature-card">
+      <h3>Learn</h3>
+      <p>Understand the purpose and rules of each concept.</p>
+    </article>
+
+    <article class="feature-card">
+      <h3>Practise</h3>
+      <p>Use each concept in a small practical exercise.</p>
+    </article>
+    <article class="feature-card">
+      <h3>Apply</h3>
+      <p>Combine concepts to build real-world applications.</p>
+    </article>
+
+  </div>
+
+</section>
 
   <section id="courses" class="courses-section">
 
@@ -92,9 +125,7 @@
       <button type="button">Start learning</button>
     </article>
 
-  </div>
-
-  <article class="course-card">
+     <article class="course-card">
     <h3>Terminal Commands</h3>
     <p>Learn how to create and manage folders using terminal
          and git in your development workflow.</p>
@@ -108,7 +139,138 @@
   </article>
 
 
+  </div>
+
+ 
+
+</section>
+
+
+<section id="projects" class="projects-section">
+
+  <div class="section-heading">
+    <p class="small-label">Practice your skills</p>
+    <h2>Beginner Projects</h2>
+  </div>
+
+  <div class="projects-layout">
+
+    <div class="project-list">
+
+      <article class="project-card">
+        <span class="project-number">01</span>
+
+        <h3>Personal Profile Page</h3>
+
+        <p>
+          Create a webpage that displays your name, interests,
+          skills and contact information.
+        </p>
+
+        <button type="button">View details</button>
+      </article>
+
+    
+
+
+    
+    <article class="project-card">
+        <span class="project-number">02</span>
+        <h3>Simple Portfolio Website</h3>
+        <p>
+            Create a portfolio website that showcases your projects,
+            skills and contact information.
+        </p>
+        <button type="button">View details</button>
+
+    </article>
+    </div>
+   
+        <aside class="learning-tips">
+      <h3>Developer Tips</h3>
+
+      <ol>
+        <li>Plan the structure before styling.</li>
+        <li>Use meaningful HTML elements.</li>
+        <li>Test every small change.</li>
+        <li>Keep indentation organized.</li>
+      </ol>
+    </aside>
+    </div>
+</section>
+<section id="contact" class="contact-section">
+
+  <div class="contact-content">
+    <p class="small-label">Get in touch</p>
+    <h2>Contact SkillSpace</h2>
+
+    <p>
+      Send us a message if you have a question about our courses.
+    </p>
+  </div>
+
+  <form class="contact-form">
+
+    <div class="form-group">
+      <label for="full-name">Full name</label>
+
+      <input
+        type="text"
+        id="full-name"
+        name="full-name"
+        placeholder="Enter your name"
+        required
+      >
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email address</label>
+
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      >
+    </div>
+    <div class="form-group">
+        <label for="subject ">Subject</label>
+        <input 
+        type="text"
+        id="subject"
+        name="subject"
+        placeholder="Enter the subject"
+        required>
+        
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        placeholder="Write your message"
+        required
+      ></textarea>
+    </div>
+
+    <button type="submit">Send message</button>
+
+  </form>
+
 </section>
 </main>
+<footer class="site-footer">
+  <p>&copy; 2026 SkillSpace. All rights reserved.</p>
+
+  <nav aria-label="Footer navigation">
+    <a href="#home">Back to top</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</footer>
 </body>
 </html>
