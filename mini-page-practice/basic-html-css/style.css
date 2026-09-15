@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: blue;
+}
+.section-courses{
+    width: 1000px ;
+}
+.course-card{
+    border: 2px solid blue;
+    width: 500px;
+    background-color: black;
+    color: white;
+    padding:20px ;
+     margin: 2rem
+     
+     
+    
+}
+.about-section{
+    background-color: aliceblue;
+    padding: 20px;
+}
+.contact{
+    
+    background-color: aliceblue;
+    padding: 20px;
+}
+.section-courses{
+    background-color: aliceblue;
+}
