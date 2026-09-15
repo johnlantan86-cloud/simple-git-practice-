@@ -1,0 +1,34 @@
+.body{
+background-color: black;
+color: white;
+margin: 10px;
+
+}
+.site-header{
+    background-color: blue;
+    color: gold;
+}
+.links{
+    color:red;
+    background-color: rgb(red, green, blue);
+    margin: 5px;
+}
+#home{ 
+    color:gold ;
+    background-color: blue;
+}
+.hero-content{
+    background-color: rgb(29, 1, 70) ;
+}
+.primary-button{
+    color: red;
+}
+.about-section{
+    color: white;
+    background-color: rgb(29, 2, 52);
+}
+.feature-card{
+    padding: 16px;
+    
+    
+}
